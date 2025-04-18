@@ -17,6 +17,7 @@ export function criarItemDaLista() {
     inputCheckbox.id = "checkbox-" + contador++;
     const nomeItem = document.createElement("p");
     nomeItem.innerText = inputItem.value;
+    inputItem.value = "";
 
 inputCheckbox.addEventListener("click", function() {
     if (inputCheckbox.checked) {

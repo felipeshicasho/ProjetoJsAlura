@@ -8,6 +8,7 @@ botaoAdicionar.addEventListener("click", (evento) => {
     evento.preventDefault();
     const itemDaLista = criarItemDaLista();
     listaDeCompras.appendChild(itemDaLista)
+    
     verificarListaVazia();
 })
 
